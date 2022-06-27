@@ -77,7 +77,7 @@ def sendMSG(IDs, msg):
         if r.status_code == 200:
             print (f'[OK] {id}')
             logging.info (f'[OK] {id}')
-    open('ID каналов.txt', mode='w',encoding='utf-8').write('\n'.join(IDs)) #discod channel IDs
+    open('Channel IDs.txt', mode='w',encoding='utf-8').write('\n'.join(IDs)) #discod channel IDs
 
 
 
